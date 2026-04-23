@@ -20,7 +20,6 @@ modules:
     install:
       - https://mirrors.rpmfusion.org/free/fedora/rpmfusion-free-release-%OS_VERSION%.noarch.rpm
       - https://mirrors.rpmfusion.org/nonfree/fedora/rpmfusion-nonfree-release-%OS_VERSION%.noarch.rpm
-      - https://github.com/FreeTubeApp/FreeTube/releases/download/v0.24.0-beta/freetube-0.24.0-beta.amd64.rpm
       - nheko
   - type: dnf
     repos:
