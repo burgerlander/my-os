@@ -20,10 +20,13 @@ modules:
     install:
       - https://mirrors.rpmfusion.org/free/fedora/rpmfusion-free-release-%OS_VERSION%.noarch.rpm
       - https://mirrors.rpmfusion.org/nonfree/fedora/rpmfusion-nonfree-release-%OS_VERSION%.noarch.rpm
+      - https://repository.mullvad.net/rpm/stable/mullvad.repo
       - nheko
       - mpv
   - type: dnf
     repos:
+      files:
+        - https://repository.mullvad.net/rpm/stable/mullvad.repo
       copr:
         - atim/starship
         - sneexy/floorp
