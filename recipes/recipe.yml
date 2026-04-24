@@ -27,6 +27,7 @@ modules:
       copr:
         - atim/starship
         - sneexy/floorp
+        - deltacopy/freetube
     install:
       packages:
         - micro
