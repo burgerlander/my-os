@@ -36,6 +36,7 @@ modules:
         - micro
         - starship
         - floorp
+        - mullvad-vpn
     remove:
       packages:
         # example: removing firefox (in favor of the flatpak)
